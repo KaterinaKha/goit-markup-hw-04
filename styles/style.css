@@ -252,7 +252,8 @@ img {
 	align-items: center;
 	justify-content: center;
 }
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
 	background-color: var(--btn-second-color);
 }
 
@@ -442,7 +443,9 @@ img {
 .footer-wrap {
 	display: flex;
 	gap: 120px;
+	align-items: baseline;
 }
+
 .footer-soc-list {
 	display: flex;
 	gap: 16px;
